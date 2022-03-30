@@ -5,9 +5,9 @@
 #include "include/complex_number.h"
 
 TEST(ALIMOV_ALIMOV_MIKHAIL_ComplexNumber_Test1, sumirovaie) {
-  ComplexNumber c1(8, 2);
+  ComplexNumber c1(8, 3);
   ComplexNumber c2(2, 2);
-  ComplexNumber res(10.0, 4.0);
+  ComplexNumber res(10.0, 5.0);
   ComplexNumber res2 = c1 + c2;
 
   EXPECT_EQ(res.getRe(), res2.getRe());
