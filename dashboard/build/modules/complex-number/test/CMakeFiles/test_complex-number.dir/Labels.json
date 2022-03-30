@@ -1,0 +1,286 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_DANSHIN_GLEB_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_Diana_Lukashuk_comlex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_GROSHEV_NIKOLAY_complex_numbers.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_Krivosheev_miron.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_Mironova_Ekaterina_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_Polina_Petrova_complex_numder.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_Shatalin_Dmitrii_complex_numder.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_bakina_kseniia_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_brazhnik_dmitry_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_chornyi_yura_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_dydykin_p_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_ershov_alexey_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_gordeev_v_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_gordey_maria_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_kazhaeva_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_kim_nikita_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_kirill_lakhov_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_kitaev_pavel_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_kruglov_aleksei_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_kuklin_andrey_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_main.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_maksim_orlov_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_myasnikova_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_pichugin_ilya_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_pinezhanin_evgeny_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_samoiluk_a_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_shelepin_nikita_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_shurygina_a_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_simple.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_troegubova_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_trukhanov_artem_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_vitulin_ivan_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_yashin_kirill_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		},
+		{
+			"file" : "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/modules/complex-number/test/test_zarubin_mikhail_complex_number.cpp",
+			"labels" : 
+			[
+				"complex-number",
+				"Test"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"complex-number",
+			"Test"
+		],
+		"name" : "test_complex-number"
+	}
+}

@@ -1,0 +1,844 @@
+Start testing: Mar 30 17:14 RTZ 2 (ceia)
+----------------------------------------------------------
+1/11 Testing: complex-number_can_Run
+1/11 Test: complex-number_can_Run
+Command: "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/bin/complex-number.exe"
+Directory: C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/modules/complex-number
+"complex-number_can_Run" start time: Mar 30 17:14 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+This is a complex number calculator application.
+
+Please provide arguments in the following format:
+
+  $ C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/bin/complex-number.exe <z1_real> <z1_imaginary> <z2_real> <z2_imaginary> <operation>
+
+Where all arguments are double-precision numbers, and <operation> is one of '+', '-', '*', '/'.
+
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"complex-number_can_Run" end time: Mar 30 17:14 RTZ 2 (ceia)
+"complex-number_can_Run" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: complex-number_can_Print_Help_Without_Arguments
+2/11 Test: complex-number_can_Print_Help_Without_Arguments
+Command: "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/bin/complex-number.exe"
+Directory: C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/modules/complex-number
+"complex-number_can_Print_Help_Without_Arguments" start time: Mar 30 17:14 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+This is a complex number calculator application.
+
+Please provide arguments in the following format:
+
+  $ C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/bin/complex-number.exe <z1_real> <z1_imaginary> <z2_real> <z2_imaginary> <operation>
+
+Where all arguments are double-precision numbers, and <operation> is one of '+', '-', '*', '/'.
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[This is a complex number calculator]
+"complex-number_can_Print_Help_Without_Arguments" end time: Mar 30 17:14 RTZ 2 (ceia)
+"complex-number_can_Print_Help_Without_Arguments" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: complex-number_can_Check_Number_Of_Arguments
+3/11 Test: complex-number_can_Check_Number_Of_Arguments
+Command: "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/bin/complex-number.exe" "1" "2"
+Directory: C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/modules/complex-number
+"complex-number_can_Check_Number_Of_Arguments" start time: Mar 30 17:14 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+ERROR: Should be 5 arguments.
+
+This is a complex number calculator application.
+
+Please provide arguments in the following format:
+
+  $ C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/bin/complex-number.exe <z1_real> <z1_imaginary> <z2_real> <z2_imaginary> <operation>
+
+Where all arguments are double-precision numbers, and <operation> is one of '+', '-', '*', '/'.
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ERROR: Should be 5 arguments.]
+"complex-number_can_Check_Number_Of_Arguments" end time: Mar 30 17:14 RTZ 2 (ceia)
+"complex-number_can_Check_Number_Of_Arguments" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: complex-number_can_Detect_Wrong_Number_Format
+4/11 Test: complex-number_can_Detect_Wrong_Number_Format
+Command: "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/bin/complex-number.exe" "1" "ip" "2" "3" "+"
+Directory: C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/modules/complex-number
+"complex-number_can_Detect_Wrong_Number_Format" start time: Mar 30 17:14 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Wrong number format!
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[Wrong number format!]
+"complex-number_can_Detect_Wrong_Number_Format" end time: Mar 30 17:14 RTZ 2 (ceia)
+"complex-number_can_Detect_Wrong_Number_Format" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: complex-number_can_Detect_Wrong_Operation_Format
+5/11 Test: complex-number_can_Detect_Wrong_Operation_Format
+Command: "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/bin/complex-number.exe" "1" "1" "2" "3" "+trash"
+Directory: C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/modules/complex-number
+"complex-number_can_Detect_Wrong_Operation_Format" start time: Mar 30 17:14 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Wrong operation format!
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[Wrong operation format!]
+"complex-number_can_Detect_Wrong_Operation_Format" end time: Mar 30 17:14 RTZ 2 (ceia)
+"complex-number_can_Detect_Wrong_Operation_Format" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: complex-number_can_Add_Complexs
+6/11 Test: complex-number_can_Add_Complexs
+Command: "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/bin/complex-number.exe" "2.5" "4.5" "1.0" "4.5" "+"
+Directory: C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/modules/complex-number
+"complex-number_can_Add_Complexs" start time: Mar 30 17:14 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Real = 3.5 Imaginary = 9
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[Real = 3.5 Imaginary = 9]
+"complex-number_can_Add_Complexs" end time: Mar 30 17:14 RTZ 2 (ceia)
+"complex-number_can_Add_Complexs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: complex-number_can_Diff_Complexs
+7/11 Test: complex-number_can_Diff_Complexs
+Command: "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/bin/complex-number.exe" "-17" "0" "15" "-3.5" "-"
+Directory: C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/modules/complex-number
+"complex-number_can_Diff_Complexs" start time: Mar 30 17:14 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Real = -32 Imaginary = 3.5
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[Real = -32 Imaginary = 3.5]
+"complex-number_can_Diff_Complexs" end time: Mar 30 17:14 RTZ 2 (ceia)
+"complex-number_can_Diff_Complexs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: complex-number_can_Mult_Complexs
+8/11 Test: complex-number_can_Mult_Complexs
+Command: "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/bin/complex-number.exe" "13" "-2" "4.6" "7.3" "*"
+Directory: C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/modules/complex-number
+"complex-number_can_Mult_Complexs" start time: Mar 30 17:14 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Real = 74.4 Imaginary = 85.7
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[Real = 74.4 Imaginary = 85.7]
+"complex-number_can_Mult_Complexs" end time: Mar 30 17:14 RTZ 2 (ceia)
+"complex-number_can_Mult_Complexs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: complex-number_can_Divide_Complexs
+9/11 Test: complex-number_can_Divide_Complexs
+Command: "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/bin/complex-number.exe" "27" "30" "15" "20" "/"
+Directory: C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/modules/complex-number
+"complex-number_can_Divide_Complexs" start time: Mar 30 17:14 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Real = 1.608 Imaginary = -0.144
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[Real = 1.608 Imaginary = -0.144]
+"complex-number_can_Divide_Complexs" end time: Mar 30 17:14 RTZ 2 (ceia)
+"complex-number_can_Divide_Complexs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: complex-number_can_Detect_Divide_By_Zero
+10/11 Test: complex-number_can_Detect_Divide_By_Zero
+Command: "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/bin/complex-number.exe" "27" "30" "0" "0" "/"
+Directory: C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/modules/complex-number
+"complex-number_can_Detect_Divide_By_Zero" start time: Mar 30 17:14 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Can't divide by zero
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[Can't divide by zero]
+"complex-number_can_Detect_Divide_By_Zero" end time: Mar 30 17:14 RTZ 2 (ceia)
+"complex-number_can_Detect_Divide_By_Zero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: complex-number_gtest
+11/11 Test: complex-number_gtest
+Command: "C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/bin/test_complex-number.exe"
+Directory: C:/Users/white/source/repos/Dev_tools/devtools-course-practice/dashboard/build/modules/complex-number/test
+"complex-number_gtest" start time: Mar 30 17:14 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+[==========] Running 259 tests from 36 test cases.
+[----------] Global test environment set-up.
+[----------] 12 tests from DanshinGlebComplexNumberTest
+[ RUN      ] DanshinGlebComplexNumberTest.DefaultConstructor
+[       OK ] DanshinGlebComplexNumberTest.DefaultConstructor (0 ms)
+[ RUN      ] DanshinGlebComplexNumberTest.ParameterizedConstructor
+[       OK ] DanshinGlebComplexNumberTest.ParameterizedConstructor (0 ms)
+[ RUN      ] DanshinGlebComplexNumberTest.CopyConstructor
+[       OK ] DanshinGlebComplexNumberTest.CopyConstructor (0 ms)
+[ RUN      ] DanshinGlebComplexNumberTest.AssignmentOperator
+[       OK ] DanshinGlebComplexNumberTest.AssignmentOperator (0 ms)
+[ RUN      ] DanshinGlebComplexNumberTest.EqualityOperator
+[       OK ] DanshinGlebComplexNumberTest.EqualityOperator (0 ms)
+[ RUN      ] DanshinGlebComplexNumberTest.CopyEqualsToOrigin
+[       OK ] DanshinGlebComplexNumberTest.CopyEqualsToOrigin (0 ms)
+[ RUN      ] DanshinGlebComplexNumberTest.InequalityOperator
+[       OK ] DanshinGlebComplexNumberTest.InequalityOperator (0 ms)
+[ RUN      ] DanshinGlebComplexNumberTest.AdditionOperator
+[       OK ] DanshinGlebComplexNumberTest.AdditionOperator (0 ms)
+[ RUN      ] DanshinGlebComplexNumberTest.SubtractionOperator
+[       OK ] DanshinGlebComplexNumberTest.SubtractionOperator (0 ms)
+[ RUN      ] DanshinGlebComplexNumberTest.MultiplicationOperator
+[       OK ] DanshinGlebComplexNumberTest.MultiplicationOperator (0 ms)
+[ RUN      ] DanshinGlebComplexNumberTest.DivisionOperator
+[       OK ] DanshinGlebComplexNumberTest.DivisionOperator (0 ms)
+[ RUN      ] DanshinGlebComplexNumberTest.DivisionByZeroError
+[       OK ] DanshinGlebComplexNumberTest.DivisionByZeroError (0 ms)
+[----------] 12 tests from DanshinGlebComplexNumberTest (1 ms total)
+
+[----------] 3 tests from Diana_ComplexNumberTest
+[ RUN      ] Diana_ComplexNumberTest.Multiplication_By_Zero
+0[       OK ] Diana_ComplexNumberTest.Multiplication_By_Zero (0 ms)
+[ RUN      ] Diana_ComplexNumberTest.Can_Operator_With_Zero
+[       OK ] Diana_ComplexNumberTest.Can_Operator_With_Zero (0 ms)
+[ RUN      ] Diana_ComplexNumberTest.Inequality
+[       OK ] Diana_ComplexNumberTest.Inequality (0 ms)
+[----------] 3 tests from Diana_ComplexNumberTest (0 ms total)
+
+[----------] 11 tests from Groshev_Nikolay_ComplexNumberTest
+[ RUN      ] Groshev_Nikolay_ComplexNumberTest.TEST_DEFAULT_CONSTRUCTOR
+[       OK ] Groshev_Nikolay_ComplexNumberTest.TEST_DEFAULT_CONSTRUCTOR (0 ms)
+[ RUN      ] Groshev_Nikolay_ComplexNumberTest.TEST_INIT_CONSTRUCTOR
+[       OK ] Groshev_Nikolay_ComplexNumberTest.TEST_INIT_CONSTRUCTOR (0 ms)
+[ RUN      ] Groshev_Nikolay_ComplexNumberTest.TEST_COPY_CONSTRUCTOR
+[       OK ] Groshev_Nikolay_ComplexNumberTest.TEST_COPY_CONSTRUCTOR (0 ms)
+[ RUN      ] Groshev_Nikolay_ComplexNumberTest.TEST_CAN_SUM
+[       OK ] Groshev_Nikolay_ComplexNumberTest.TEST_CAN_SUM (0 ms)
+[ RUN      ] Groshev_Nikolay_ComplexNumberTest.TEST_CAN_MULTIPLE
+[       OK ] Groshev_Nikolay_ComplexNumberTest.TEST_CAN_MULTIPLE (0 ms)
+[ RUN      ] Groshev_Nikolay_ComplexNumberTest.TEST_CAN_DIV
+[       OK ] Groshev_Nikolay_ComplexNumberTest.TEST_CAN_DIV (0 ms)
+[ RUN      ] Groshev_Nikolay_ComplexNumberTest.TEST_CAN_DIV_BY_NULL_WITH_EXCEPTION
+[       OK ] Groshev_Nikolay_ComplexNumberTest.TEST_CAN_DIV_BY_NULL_WITH_EXCEPTION (1 ms)
+[ RUN      ] Groshev_Nikolay_ComplexNumberTest.TEST_EQUALS_POSITIVE
+[       OK ] Groshev_Nikolay_ComplexNumberTest.TEST_EQUALS_POSITIVE (0 ms)
+[ RUN      ] Groshev_Nikolay_ComplexNumberTest.TEST_EQUALS_NEGATIVE
+[       OK ] Groshev_Nikolay_ComplexNumberTest.TEST_EQUALS_NEGATIVE (0 ms)
+[ RUN      ] Groshev_Nikolay_ComplexNumberTest.TEST_UNQUALS_POSITIVE
+[       OK ] Groshev_Nikolay_ComplexNumberTest.TEST_UNQUALS_POSITIVE (0 ms)
+[ RUN      ] Groshev_Nikolay_ComplexNumberTest.TEST_UNQUALS_NEGATIVE
+[       OK ] Groshev_Nikolay_ComplexNumberTest.TEST_UNQUALS_NEGATIVE (0 ms)
+[----------] 11 tests from Groshev_Nikolay_ComplexNumberTest (1 ms total)
+
+[----------] 12 tests from Krivosheev_Miron_ComplexNumberTest
+[ RUN      ] Krivosheev_Miron_ComplexNumberTest.DefaultConstructor
+[       OK ] Krivosheev_Miron_ComplexNumberTest.DefaultConstructor (0 ms)
+[ RUN      ] Krivosheev_Miron_ComplexNumberTest.AssignConstructor
+[       OK ] Krivosheev_Miron_ComplexNumberTest.AssignConstructor (0 ms)
+[ RUN      ] Krivosheev_Miron_ComplexNumberTest.CopyConstructor
+[       OK ] Krivosheev_Miron_ComplexNumberTest.CopyConstructor (0 ms)
+[ RUN      ] Krivosheev_Miron_ComplexNumberTest.AssignOprator
+[       OK ] Krivosheev_Miron_ComplexNumberTest.AssignOprator (0 ms)
+[ RUN      ] Krivosheev_Miron_ComplexNumberTest.AdditionNumbers
+[       OK ] Krivosheev_Miron_ComplexNumberTest.AdditionNumbers (0 ms)
+[ RUN      ] Krivosheev_Miron_ComplexNumberTest.SubtractionNumbers
+[       OK ] Krivosheev_Miron_ComplexNumberTest.SubtractionNumbers (0 ms)
+[ RUN      ] Krivosheev_Miron_ComplexNumberTest.MultiplyNumbers
+[       OK ] Krivosheev_Miron_ComplexNumberTest.MultiplyNumbers (0 ms)
+[ RUN      ] Krivosheev_Miron_ComplexNumberTest.DivisionNumbers
+[       OK ] Krivosheev_Miron_ComplexNumberTest.DivisionNumbers (0 ms)
+[ RUN      ] Krivosheev_Miron_ComplexNumberTest.EqualityOperatorPossitive
+[       OK ] Krivosheev_Miron_ComplexNumberTest.EqualityOperatorPossitive (0 ms)
+[ RUN      ] Krivosheev_Miron_ComplexNumberTest.EqualityOperatorNegetive
+[       OK ] Krivosheev_Miron_ComplexNumberTest.EqualityOperatorNegetive (0 ms)
+[ RUN      ] Krivosheev_Miron_ComplexNumberTest.NotEqualityOperatorPossitive
+[       OK ] Krivosheev_Miron_ComplexNumberTest.NotEqualityOperatorPossitive (0 ms)
+[ RUN      ] Krivosheev_Miron_ComplexNumberTest.NotEqualityOperatorNegetive
+[       OK ] Krivosheev_Miron_ComplexNumberTest.NotEqualityOperatorNegetive (0 ms)
+[----------] 12 tests from Krivosheev_Miron_ComplexNumberTest (0 ms total)
+
+[----------] 10 tests from Mironova_Ekaterina_ComplexNumberTest
+[ RUN      ] Mironova_Ekaterina_ComplexNumberTest.can_create_complex_number
+[       OK ] Mironova_Ekaterina_ComplexNumberTest.can_create_complex_number (0 ms)
+[ RUN      ] Mironova_Ekaterina_ComplexNumberTest.getRe_works_correct
+[       OK ] Mironova_Ekaterina_ComplexNumberTest.getRe_works_correct (0 ms)
+[ RUN      ] Mironova_Ekaterina_ComplexNumberTest.getIm_works_correct
+[       OK ] Mironova_Ekaterina_ComplexNumberTest.getIm_works_correct (0 ms)
+[ RUN      ] Mironova_Ekaterina_ComplexNumberTest.setRe_works_correct
+[       OK ] Mironova_Ekaterina_ComplexNumberTest.setRe_works_correct (0 ms)
+[ RUN      ] Mironova_Ekaterina_ComplexNumberTest.setIm_works_correct
+[       OK ] Mironova_Ekaterina_ComplexNumberTest.setIm_works_correct (0 ms)
+[ RUN      ] Mironova_Ekaterina_ComplexNumberTest.addition_is_correct
+[       OK ] Mironova_Ekaterina_ComplexNumberTest.addition_is_correct (0 ms)
+[ RUN      ] Mironova_Ekaterina_ComplexNumberTest.subtraction_is_correct
+[       OK ] Mironova_Ekaterina_ComplexNumberTest.subtraction_is_correct (0 ms)
+[ RUN      ] Mironova_Ekaterina_ComplexNumberTest.multiplication_is_correct
+[       OK ] Mironova_Ekaterina_ComplexNumberTest.multiplication_is_correct (0 ms)
+[ RUN      ] Mironova_Ekaterina_ComplexNumberTest.division_is_correct
+[       OK ] Mironova_Ekaterina_ComplexNumberTest.division_is_correct (0 ms)
+[ RUN      ] Mironova_Ekaterina_ComplexNumberTest.cant_divide_by_zero
+[       OK ] Mironova_Ekaterina_ComplexNumberTest.cant_divide_by_zero (0 ms)
+[----------] 10 tests from Mironova_Ekaterina_ComplexNumberTest (3 ms total)
+
+[----------] 14 tests from ComplexNumberTest
+[ RUN      ] ComplexNumberTest.Can_Create_Zero
+[       OK ] ComplexNumberTest.Can_Create_Zero (0 ms)
+[ RUN      ] ComplexNumberTest.Return_correct_re
+[       OK ] ComplexNumberTest.Return_correct_re (0 ms)
+[ RUN      ] ComplexNumberTest.Return_correct_im
+[       OK ] ComplexNumberTest.Return_correct_im (0 ms)
+[ RUN      ] ComplexNumberTest.Correct_op_plus_re
+[       OK ] ComplexNumberTest.Correct_op_plus_re (0 ms)
+[ RUN      ] ComplexNumberTest.Correct_op_plus_im
+[       OK ] ComplexNumberTest.Correct_op_plus_im (0 ms)
+[ RUN      ] ComplexNumberTest.Correct_op_minus
+[       OK ] ComplexNumberTest.Correct_op_minus (0 ms)
+[ RUN      ] ComplexNumberTest.Correct_eq
+[       OK ] ComplexNumberTest.Correct_eq (0 ms)
+[ RUN      ] ComplexNumberTest.Incorrect_eq
+[       OK ] ComplexNumberTest.Incorrect_eq (0 ms)
+[ RUN      ] ComplexNumberTest.Correct_op_division_on_zero
+[       OK ] ComplexNumberTest.Correct_op_division_on_zero (0 ms)
+[ RUN      ] ComplexNumberTest.Can_Get_Parts
+[       OK ] ComplexNumberTest.Can_Get_Parts (0 ms)
+[ RUN      ] ComplexNumberTest.Can_Sum
+[       OK ] ComplexNumberTest.Can_Sum (0 ms)
+[ RUN      ] ComplexNumberTest.Assert_Throw_If_Devision_On_Zero
+[       OK ] ComplexNumberTest.Assert_Throw_If_Devision_On_Zero (0 ms)
+[ RUN      ] ComplexNumberTest.Can_Compare_Complex_Number
+[       OK ] ComplexNumberTest.Can_Compare_Complex_Number (0 ms)
+[ RUN      ] ComplexNumberTest.Can_Assign_Complex_Number
+[       OK ] ComplexNumberTest.Can_Assign_Complex_Number (0 ms)
+[----------] 14 tests from ComplexNumberTest (0 ms total)
+
+[----------] 4 tests from My_Test_SH_D_ComplexNumberTest
+[ RUN      ] My_Test_SH_D_ComplexNumberTest.Can_Create_Zero_Complex_Number
+[       OK ] My_Test_SH_D_ComplexNumberTest.Can_Create_Zero_Complex_Number (0 ms)
+[ RUN      ] My_Test_SH_D_ComplexNumberTest.Can_Subtraction_Complex_Number
+[       OK ] My_Test_SH_D_ComplexNumberTest.Can_Subtraction_Complex_Number (0 ms)
+[ RUN      ] My_Test_SH_D_ComplexNumberTest.Can_Addition_Complex_Number
+[       OK ] My_Test_SH_D_ComplexNumberTest.Can_Addition_Complex_Number (0 ms)
+[ RUN      ] My_Test_SH_D_ComplexNumberTest.Can_Multiply_Complex_Number
+[       OK ] My_Test_SH_D_ComplexNumberTest.Can_Multiply_Complex_Number (0 ms)
+[----------] 4 tests from My_Test_SH_D_ComplexNumberTest (0 ms total)
+
+[----------] 9 tests from Bakina_Kseniia_ComplexNumberTest
+[ RUN      ] Bakina_Kseniia_ComplexNumberTest.check_initialization_constructor
+[       OK ] Bakina_Kseniia_ComplexNumberTest.check_initialization_constructor (0 ms)
+[ RUN      ] Bakina_Kseniia_ComplexNumberTest.check_copy_constructor
+[       OK ] Bakina_Kseniia_ComplexNumberTest.check_copy_constructor (0 ms)
+[ RUN      ] Bakina_Kseniia_ComplexNumberTest.check_setters
+[       OK ] Bakina_Kseniia_ComplexNumberTest.check_setters (0 ms)
+[ RUN      ] Bakina_Kseniia_ComplexNumberTest.check_equality_operation
+[       OK ] Bakina_Kseniia_ComplexNumberTest.check_equality_operation (0 ms)
+[ RUN      ] Bakina_Kseniia_ComplexNumberTest.check_inequality_operation
+[       OK ] Bakina_Kseniia_ComplexNumberTest.check_inequality_operation (0 ms)
+[ RUN      ] Bakina_Kseniia_ComplexNumberTest.check_addition
+[       OK ] Bakina_Kseniia_ComplexNumberTest.check_addition (0 ms)
+[ RUN      ] Bakina_Kseniia_ComplexNumberTest.check_subtraction
+[       OK ] Bakina_Kseniia_ComplexNumberTest.check_subtraction (0 ms)
+[ RUN      ] Bakina_Kseniia_ComplexNumberTest.check_multiplication
+[       OK ] Bakina_Kseniia_ComplexNumberTest.check_multiplication (0 ms)
+[ RUN      ] Bakina_Kseniia_ComplexNumberTest.check_division
+[       OK ] Bakina_Kseniia_ComplexNumberTest.check_division (0 ms)
+[----------] 9 tests from Bakina_Kseniia_ComplexNumberTest (3 ms total)
+
+[----------] 3 tests from BD_CN_TEST
+[ RUN      ] BD_CN_TEST.TEST_COMPLEX_NUMBER_SUM_FIRST_AND_SECOND_TRUE
+[       OK ] BD_CN_TEST.TEST_COMPLEX_NUMBER_SUM_FIRST_AND_SECOND_TRUE (0 ms)
+[ RUN      ] BD_CN_TEST.TEST_COMPLEX_NUMBER_MULTIPLY_FIRST_AND_SECOND_TRUE
+[       OK ] BD_CN_TEST.TEST_COMPLEX_NUMBER_MULTIPLY_FIRST_AND_SECOND_TRUE (0 ms)
+[ RUN      ] BD_CN_TEST.TEST_COMPLEX_NUMBER_SUBTRACTION_FIRST_AND_SECOND_TRUE
+[       OK ] BD_CN_TEST.TEST_COMPLEX_NUMBER_SUBTRACTION_FIRST_AND_SECOND_TRUE (0 ms)
+[----------] 3 tests from BD_CN_TEST (0 ms total)
+
+[----------] 4 tests from OpeartionSuite
+[ RUN      ] OpeartionSuite.OperationPlus
+[       OK ] OpeartionSuite.OperationPlus (0 ms)
+[ RUN      ] OpeartionSuite.OperationMinus
+[       OK ] OpeartionSuite.OperationMinus (0 ms)
+[ RUN      ] OpeartionSuite.OperationMultiply
+[       OK ] OpeartionSuite.OperationMultiply (0 ms)
+[ RUN      ] OpeartionSuite.OperationDevide
+[       OK ] OpeartionSuite.OperationDevide (0 ms)
+[----------] 4 tests from OpeartionSuite (0 ms total)
+
+[----------] 4 tests from Dydykin_Pavel_ComplexNumberTest
+[ RUN      ] Dydykin_Pavel_ComplexNumberTest.Can_Sum
+[       OK ] Dydykin_Pavel_ComplexNumberTest.Can_Sum (0 ms)
+[ RUN      ] Dydykin_Pavel_ComplexNumberTest.Can_Minus
+[       OK ] Dydykin_Pavel_ComplexNumberTest.Can_Minus (0 ms)
+[ RUN      ] Dydykin_Pavel_ComplexNumberTest.Can_Multiply
+[       OK ] Dydykin_Pavel_ComplexNumberTest.Can_Multiply (0 ms)
+[ RUN      ] Dydykin_Pavel_ComplexNumberTest.Can_Compare
+[       OK ] Dydykin_Pavel_ComplexNumberTest.Can_Compare (0 ms)
+[----------] 4 tests from Dydykin_Pavel_ComplexNumberTest (0 ms total)
+
+[----------] 4 tests from ershov_alexey_complex_number_test
+[ RUN      ] ershov_alexey_complex_number_test.complex_assignment
+[       OK ] ershov_alexey_complex_number_test.complex_assignment (0 ms)
+[ RUN      ] ershov_alexey_complex_number_test.complex_set_single_assignment
+[       OK ] ershov_alexey_complex_number_test.complex_set_single_assignment (0 ms)
+[ RUN      ] ershov_alexey_complex_number_test.complex_set_pair_not_assignment
+[       OK ] ershov_alexey_complex_number_test.complex_set_pair_not_assignment (0 ms)
+[ RUN      ] ershov_alexey_complex_number_test.complex_no_exception_multiply
+[       OK ] ershov_alexey_complex_number_test.complex_no_exception_multiply (0 ms)
+[----------] 4 tests from ershov_alexey_complex_number_test (0 ms total)
+
+[----------] 5 tests from GordeevComplexNumberTest
+[ RUN      ] GordeevComplexNumberTest.Throw_On_Zero
+[       OK ] GordeevComplexNumberTest.Throw_On_Zero (0 ms)
+[ RUN      ] GordeevComplexNumberTest.Can_Sum_Vals
+[       OK ] GordeevComplexNumberTest.Can_Sum_Vals (0 ms)
+[ RUN      ] GordeevComplexNumberTest.Assignment_Of_Number
+[       OK ] GordeevComplexNumberTest.Assignment_Of_Number (0 ms)
+[ RUN      ] GordeevComplexNumberTest.Can_Get_Parts_Of_Value
+[       OK ] GordeevComplexNumberTest.Can_Get_Parts_Of_Value (0 ms)
+[ RUN      ] GordeevComplexNumberTest.Can_Compare_Complex_Number
+[       OK ] GordeevComplexNumberTest.Can_Compare_Complex_Number (0 ms)
+[----------] 5 tests from GordeevComplexNumberTest (5 ms total)
+
+[----------] 3 tests from Gordey_Maria_ComplexNumberTest
+[ RUN      ] Gordey_Maria_ComplexNumberTest.hypotenuse_and_legs
+[       OK ] Gordey_Maria_ComplexNumberTest.hypotenuse_and_legs (0 ms)
+[ RUN      ] Gordey_Maria_ComplexNumberTest.equal
+[       OK ] Gordey_Maria_ComplexNumberTest.equal (0 ms)
+[ RUN      ] Gordey_Maria_ComplexNumberTest.not_equal
+[       OK ] Gordey_Maria_ComplexNumberTest.not_equal (0 ms)
+[----------] 3 tests from Gordey_Maria_ComplexNumberTest (0 ms total)
+
+[----------] 1 test from Kazhaeva_Anastasia_ComplexNumberTest1
+[ RUN      ] Kazhaeva_Anastasia_ComplexNumberTest1.add
+[       OK ] Kazhaeva_Anastasia_ComplexNumberTest1.add (0 ms)
+[----------] 1 test from Kazhaeva_Anastasia_ComplexNumberTest1 (0 ms total)
+
+[----------] 1 test from Kazhaeva_Anastasia_ComplexNumberTest2
+[ RUN      ] Kazhaeva_Anastasia_ComplexNumberTest2.multiplication
+[       OK ] Kazhaeva_Anastasia_ComplexNumberTest2.multiplication (0 ms)
+[----------] 1 test from Kazhaeva_Anastasia_ComplexNumberTest2 (0 ms total)
+
+[----------] 1 test from Kazhaeva_Anastasia_ComplexNumberTest3
+[ RUN      ] Kazhaeva_Anastasia_ComplexNumberTest3.subtraction
+[       OK ] Kazhaeva_Anastasia_ComplexNumberTest3.subtraction (0 ms)
+[----------] 1 test from Kazhaeva_Anastasia_ComplexNumberTest3 (0 ms total)
+
+[----------] 1 test from Kazhaeva_Anastasia_ComplexNumberTest4
+[ RUN      ] Kazhaeva_Anastasia_ComplexNumberTest4.subtraction2
+[       OK ] Kazhaeva_Anastasia_ComplexNumberTest4.subtraction2 (0 ms)
+[----------] 1 test from Kazhaeva_Anastasia_ComplexNumberTest4 (0 ms total)
+
+[----------] 4 tests from Kim_Nikita_ComplexNumberTest
+[ RUN      ] Kim_Nikita_ComplexNumberTest.Can_Create_Zero
+[       OK ] Kim_Nikita_ComplexNumberTest.Can_Create_Zero (0 ms)
+[ RUN      ] Kim_Nikita_ComplexNumberTest.Can_Sum
+[       OK ] Kim_Nikita_ComplexNumberTest.Can_Sum (0 ms)
+[ RUN      ] Kim_Nikita_ComplexNumberTest.Can_Prod
+[       OK ] Kim_Nikita_ComplexNumberTest.Can_Prod (0 ms)
+[ RUN      ] Kim_Nikita_ComplexNumberTest.Can_Do_Large_Operations
+[       OK ] Kim_Nikita_ComplexNumberTest.Can_Do_Large_Operations (0 ms)
+[----------] 4 tests from Kim_Nikita_ComplexNumberTest (0 ms total)
+
+[----------] 7 tests from Lakhov_Kirill_ComplexNumberTest
+[ RUN      ] Lakhov_Kirill_ComplexNumberTest.Can_Sum
+[       OK ] Lakhov_Kirill_ComplexNumberTest.Can_Sum (0 ms)
+[ RUN      ] Lakhov_Kirill_ComplexNumberTest.Can_Subtract
+[       OK ] Lakhov_Kirill_ComplexNumberTest.Can_Subtract (0 ms)
+[ RUN      ] Lakhov_Kirill_ComplexNumberTest.Can_Multiply
+[       OK ] Lakhov_Kirill_ComplexNumberTest.Can_Multiply (0 ms)
+[ RUN      ] Lakhov_Kirill_ComplexNumberTest.Can_Divide
+[       OK ] Lakhov_Kirill_ComplexNumberTest.Can_Divide (0 ms)
+[ RUN      ] Lakhov_Kirill_ComplexNumberTest.Can_Compare_1
+[       OK ] Lakhov_Kirill_ComplexNumberTest.Can_Compare_1 (0 ms)
+[ RUN      ] Lakhov_Kirill_ComplexNumberTest.Can_Compare_2
+[       OK ] Lakhov_Kirill_ComplexNumberTest.Can_Compare_2 (0 ms)
+[ RUN      ] Lakhov_Kirill_ComplexNumberTest.Can_Copy
+[       OK ] Lakhov_Kirill_ComplexNumberTest.Can_Copy (0 ms)
+[----------] 7 tests from Lakhov_Kirill_ComplexNumberTest (0 ms total)
+
+[----------] 7 tests from Kitaev_Pavel_ComplexNumberTest
+[ RUN      ] Kitaev_Pavel_ComplexNumberTest.Can_Instantiate_ComplexNumber
+[       OK ] Kitaev_Pavel_ComplexNumberTest.Can_Instantiate_ComplexNumber (0 ms)
+[ RUN      ] Kitaev_Pavel_ComplexNumberTest.Can_Perform_Sum
+[       OK ] Kitaev_Pavel_ComplexNumberTest.Can_Perform_Sum (0 ms)
+[ RUN      ] Kitaev_Pavel_ComplexNumberTest.Can_Perform_Difference
+[       OK ] Kitaev_Pavel_ComplexNumberTest.Can_Perform_Difference (0 ms)
+[ RUN      ] Kitaev_Pavel_ComplexNumberTest.Can_Perform_Multiplication
+[       OK ] Kitaev_Pavel_ComplexNumberTest.Can_Perform_Multiplication (0 ms)
+[ RUN      ] Kitaev_Pavel_ComplexNumberTest.Can_Perform_Multiplication_in_Zerro
+[       OK ] Kitaev_Pavel_ComplexNumberTest.Can_Perform_Multiplication_in_Zerro (0 ms)
+[ RUN      ] Kitaev_Pavel_ComplexNumberTest.Can_Perform_Division
+[       OK ] Kitaev_Pavel_ComplexNumberTest.Can_Perform_Division (0 ms)
+[ RUN      ] Kitaev_Pavel_ComplexNumberTest.Can_Do_Comparison
+[       OK ] Kitaev_Pavel_ComplexNumberTest.Can_Do_Comparison (0 ms)
+[----------] 7 tests from Kitaev_Pavel_ComplexNumberTest (4 ms total)
+
+[----------] 6 tests from Kruglov_Aleksei_ComplexNumberTest
+[ RUN      ] Kruglov_Aleksei_ComplexNumberTest.Create
+[       OK ] Kruglov_Aleksei_ComplexNumberTest.Create (0 ms)
+[ RUN      ] Kruglov_Aleksei_ComplexNumberTest.Compare
+[       OK ] Kruglov_Aleksei_ComplexNumberTest.Compare (0 ms)
+[ RUN      ] Kruglov_Aleksei_ComplexNumberTest.Sum
+[       OK ] Kruglov_Aleksei_ComplexNumberTest.Sum (0 ms)
+[ RUN      ] Kruglov_Aleksei_ComplexNumberTest.Multiply
+[       OK ] Kruglov_Aleksei_ComplexNumberTest.Multiply (0 ms)
+[ RUN      ] Kruglov_Aleksei_ComplexNumberTest.Divide
+[       OK ] Kruglov_Aleksei_ComplexNumberTest.Divide (0 ms)
+[ RUN      ] Kruglov_Aleksei_ComplexNumberTest.Subtract
+[       OK ] Kruglov_Aleksei_ComplexNumberTest.Subtract (0 ms)
+[----------] 6 tests from Kruglov_Aleksei_ComplexNumberTest (0 ms total)
+
+[----------] 15 tests from class_ComplexNumber
+[ RUN      ] class_ComplexNumber.can_create_complex_number
+[       OK ] class_ComplexNumber.can_create_complex_number (0 ms)
+[ RUN      ] class_ComplexNumber.can_create_complex_with_selected_params
+[       OK ] class_ComplexNumber.can_create_complex_with_selected_params (0 ms)
+[ RUN      ] class_ComplexNumber.can_create_complex_with_other_params
+[       OK ] class_ComplexNumber.can_create_complex_with_other_params (0 ms)
+[ RUN      ] class_ComplexNumber.can_create_complex_by_copy
+[       OK ] class_ComplexNumber.can_create_complex_by_copy (0 ms)
+[ RUN      ] class_ComplexNumber.can_take_real_from_complex
+[       OK ] class_ComplexNumber.can_take_real_from_complex (0 ms)
+[ RUN      ] class_ComplexNumber.taken_real_is_equal_to_complex_real
+[       OK ] class_ComplexNumber.taken_real_is_equal_to_complex_real (0 ms)
+[ RUN      ] class_ComplexNumber.can_take_imaginary_from_complex
+[       OK ] class_ComplexNumber.can_take_imaginary_from_complex (0 ms)
+[ RUN      ] class_ComplexNumber.taken_real_is_equal_to_complex_imaginary
+[       OK ] class_ComplexNumber.taken_real_is_equal_to_complex_imaginary (0 ms)
+[ RUN      ] class_ComplexNumber.copied_complex_equal_to_source_complex
+[       OK ] class_ComplexNumber.copied_complex_equal_to_source_complex (0 ms)
+[ RUN      ] class_ComplexNumber.can_set_real_for_complex
+[       OK ] class_ComplexNumber.can_set_real_for_complex (0 ms)
+[ RUN      ] class_ComplexNumber.set_real_is_equal_to_complex_real
+[       OK ] class_ComplexNumber.set_real_is_equal_to_complex_real (0 ms)
+[ RUN      ] class_ComplexNumber.can_set_imaginary_for_complex
+[       OK ] class_ComplexNumber.can_set_imaginary_for_complex (0 ms)
+[ RUN      ] class_ComplexNumber.set_imaginary_is_equal_to_complex_real
+[       OK ] class_ComplexNumber.set_imaginary_is_equal_to_complex_real (0 ms)
+[ RUN      ] class_ComplexNumber.can_assign_complex_to_another_complex
+[       OK ] class_ComplexNumber.can_assign_complex_to_another_complex (0 ms)
+[ RUN      ] class_ComplexNumber.assigned_complex_equal_source_complex
+[       OK ] class_ComplexNumber.assigned_complex_equal_source_complex (0 ms)
+[----------] 15 tests from class_ComplexNumber (1 ms total)
+
+[----------] 10 tests from Orlov_Maksim_ComplexNumberTest
+[ RUN      ] Orlov_Maksim_ComplexNumberTest.can_create_zero
+[       OK ] Orlov_Maksim_ComplexNumberTest.can_create_zero (0 ms)
+[ RUN      ] Orlov_Maksim_ComplexNumberTest.can_create_number
+[       OK ] Orlov_Maksim_ComplexNumberTest.can_create_number (0 ms)
+[ RUN      ] Orlov_Maksim_ComplexNumberTest.can_copy_number
+[       OK ] Orlov_Maksim_ComplexNumberTest.can_copy_number (0 ms)
+[ RUN      ] Orlov_Maksim_ComplexNumberTest.can_assign_number
+[       OK ] Orlov_Maksim_ComplexNumberTest.can_assign_number (0 ms)
+[ RUN      ] Orlov_Maksim_ComplexNumberTest.can_add
+[       OK ] Orlov_Maksim_ComplexNumberTest.can_add (0 ms)
+[ RUN      ] Orlov_Maksim_ComplexNumberTest.can_subtract
+[       OK ] Orlov_Maksim_ComplexNumberTest.can_subtract (0 ms)
+[ RUN      ] Orlov_Maksim_ComplexNumberTest.can_multiply
+[       OK ] Orlov_Maksim_ComplexNumberTest.can_multiply (0 ms)
+[ RUN      ] Orlov_Maksim_ComplexNumberTest.can_divide
+[       OK ] Orlov_Maksim_ComplexNumberTest.can_divide (0 ms)
+[ RUN      ] Orlov_Maksim_ComplexNumberTest.can_test_equality
+[       OK ] Orlov_Maksim_ComplexNumberTest.can_test_equality (0 ms)
+[ RUN      ] Orlov_Maksim_ComplexNumberTest.can_test_inequality
+[       OK ] Orlov_Maksim_ComplexNumberTest.can_test_inequality (0 ms)
+[----------] 10 tests from Orlov_Maksim_ComplexNumberTest (4 ms total)
+
+[----------] 7 tests from Myasnikova_Varvara_ComplexNumberTest
+[ RUN      ] Myasnikova_Varvara_ComplexNumberTest.Create_ComplexNumber
+[       OK ] Myasnikova_Varvara_ComplexNumberTest.Create_ComplexNumber (0 ms)
+[ RUN      ] Myasnikova_Varvara_ComplexNumberTest.Perform_Sum
+[       OK ] Myasnikova_Varvara_ComplexNumberTest.Perform_Sum (0 ms)
+[ RUN      ] Myasnikova_Varvara_ComplexNumberTest.Perform_Difference
+[       OK ] Myasnikova_Varvara_ComplexNumberTest.Perform_Difference (0 ms)
+[ RUN      ] Myasnikova_Varvara_ComplexNumberTest.Perform_Multiplication
+[       OK ] Myasnikova_Varvara_ComplexNumberTest.Perform_Multiplication (0 ms)
+[ RUN      ] Myasnikova_Varvara_ComplexNumberTest.Perform_Multiplication_by_Zerro
+[       OK ] Myasnikova_Varvara_ComplexNumberTest.Perform_Multiplication_by_Zerro (0 ms)
+[ RUN      ] Myasnikova_Varvara_ComplexNumberTest.Perform_Division
+[       OK ] Myasnikova_Varvara_ComplexNumberTest.Perform_Division (0 ms)
+[ RUN      ] Myasnikova_Varvara_ComplexNumberTest.Do_Compare
+[       OK ] Myasnikova_Varvara_ComplexNumberTest.Do_Compare (0 ms)
+[----------] 7 tests from Myasnikova_Varvara_ComplexNumberTest (1 ms total)
+
+[----------] 4 tests from TESTING_COMPLEX
+[ RUN      ] TESTING_COMPLEX.Can_Create_Zero
+[       OK ] TESTING_COMPLEX.Can_Create_Zero (0 ms)
+[ RUN      ] TESTING_COMPLEX.Can_Create_Umnozenie
+[       OK ] TESTING_COMPLEX.Can_Create_Umnozenie (0 ms)
+[ RUN      ] TESTING_COMPLEX.Can_Create_Plus
+[       OK ] TESTING_COMPLEX.Can_Create_Plus (0 ms)
+[ RUN      ] TESTING_COMPLEX.Can_Create_Minus
+[       OK ] TESTING_COMPLEX.Can_Create_Minus (0 ms)
+[----------] 4 tests from TESTING_COMPLEX (0 ms total)
+
+[----------] 13 tests from Pinezhanin_Evgeny_ComplexNumberTest
+[ RUN      ] Pinezhanin_Evgeny_ComplexNumberTest.can_create_copied_complex_number
+[       OK ] Pinezhanin_Evgeny_ComplexNumberTest.can_create_copied_complex_number (0 ms)
+[ RUN      ] Pinezhanin_Evgeny_ComplexNumberTest.can_assign_complex_number
+[       OK ] Pinezhanin_Evgeny_ComplexNumberTest.can_assign_complex_number (0 ms)
+[ RUN      ] Pinezhanin_Evgeny_ComplexNumberTest.can_get_re_complex_number
+[       OK ] Pinezhanin_Evgeny_ComplexNumberTest.can_get_re_complex_number (0 ms)
+[ RUN      ] Pinezhanin_Evgeny_ComplexNumberTest.can_get_im_complex_number
+[       OK ] Pinezhanin_Evgeny_ComplexNumberTest.can_get_im_complex_number (0 ms)
+[ RUN      ] Pinezhanin_Evgeny_ComplexNumberTest.can_change_re_complex_number
+[       OK ] Pinezhanin_Evgeny_ComplexNumberTest.can_change_re_complex_number (0 ms)
+[ RUN      ] Pinezhanin_Evgeny_ComplexNumberTest.can_change_im_complex_number
+[       OK ] Pinezhanin_Evgeny_ComplexNumberTest.can_change_im_complex_number (0 ms)
+[ RUN      ] Pinezhanin_Evgeny_ComplexNumberTest.can_compare_equal_numbers
+[       OK ] Pinezhanin_Evgeny_ComplexNumberTest.can_compare_equal_numbers (0 ms)
+[ RUN      ] Pinezhanin_Evgeny_ComplexNumberTest.can_compare_inequal_numbers
+[       OK ] Pinezhanin_Evgeny_ComplexNumberTest.can_compare_inequal_numbers (0 ms)
+[ RUN      ] Pinezhanin_Evgeny_ComplexNumberTest.can_add_complex_numbers
+[       OK ] Pinezhanin_Evgeny_ComplexNumberTest.can_add_complex_numbers (0 ms)
+[ RUN      ] Pinezhanin_Evgeny_ComplexNumberTest.can_subtract_complex_numbers
+[       OK ] Pinezhanin_Evgeny_ComplexNumberTest.can_subtract_complex_numbers (0 ms)
+[ RUN      ] Pinezhanin_Evgeny_ComplexNumberTest.can_multiply_complex_numbers
+[       OK ] Pinezhanin_Evgeny_ComplexNumberTest.can_multiply_complex_numbers (0 ms)
+[ RUN      ] Pinezhanin_Evgeny_ComplexNumberTest.can_divide_complex_numbers
+[       OK ] Pinezhanin_Evgeny_ComplexNumberTest.can_divide_complex_numbers (0 ms)
+[ RUN      ] Pinezhanin_Evgeny_ComplexNumberTest.cant_divide_by_zero
+[       OK ] Pinezhanin_Evgeny_ComplexNumberTest.cant_divide_by_zero (0 ms)
+[----------] 13 tests from Pinezhanin_Evgeny_ComplexNumberTest (5 ms total)
+
+[----------] 8 tests from Samoiluk_Anastasiya_ComplexNumberTest
+[ RUN      ] Samoiluk_Anastasiya_ComplexNumberTest.Can_Create_Complex_Number
+[       OK ] Samoiluk_Anastasiya_ComplexNumberTest.Can_Create_Complex_Number (0 ms)
+[ RUN      ] Samoiluk_Anastasiya_ComplexNumberTest.Can_Create_Copied_Number
+[       OK ] Samoiluk_Anastasiya_ComplexNumberTest.Can_Create_Copied_Number (0 ms)
+[ RUN      ] Samoiluk_Anastasiya_ComplexNumberTest.Can_Equate_Complex_Numbers
+[       OK ] Samoiluk_Anastasiya_ComplexNumberTest.Can_Equate_Complex_Numbers (0 ms)
+[ RUN      ] Samoiluk_Anastasiya_ComplexNumberTest.Can_Change_Complex_Number
+[       OK ] Samoiluk_Anastasiya_ComplexNumberTest.Can_Change_Complex_Number (0 ms)
+[ RUN      ] Samoiluk_Anastasiya_ComplexNumberTest.Can_Add_Complex_Numbers
+[       OK ] Samoiluk_Anastasiya_ComplexNumberTest.Can_Add_Complex_Numbers (0 ms)
+[ RUN      ] Samoiluk_Anastasiya_ComplexNumberTest.Can_Subtract_Complex_Numbers
+[       OK ] Samoiluk_Anastasiya_ComplexNumberTest.Can_Subtract_Complex_Numbers (0 ms)
+[ RUN      ] Samoiluk_Anastasiya_ComplexNumberTest.Can_Compare_Complex_Numbers_1
+[       OK ] Samoiluk_Anastasiya_ComplexNumberTest.Can_Compare_Complex_Numbers_1 (0 ms)
+[ RUN      ] Samoiluk_Anastasiya_ComplexNumberTest.Can_Compare_Complex_Numbers_2
+[       OK ] Samoiluk_Anastasiya_ComplexNumberTest.Can_Compare_Complex_Numbers_2 (0 ms)
+[----------] 8 tests from Samoiluk_Anastasiya_ComplexNumberTest (1 ms total)
+
+[----------] 15 tests from Shelepin_Nikita_ComplexNumberTest
+[ RUN      ] Shelepin_Nikita_ComplexNumberTest.DefaultConstructor
+[       OK ] Shelepin_Nikita_ComplexNumberTest.DefaultConstructor (0 ms)
+[ RUN      ] Shelepin_Nikita_ComplexNumberTest.TwoParamConstructor
+[       OK ] Shelepin_Nikita_ComplexNumberTest.TwoParamConstructor (0 ms)
+[ RUN      ] Shelepin_Nikita_ComplexNumberTest.CopyConstructor
+[       OK ] Shelepin_Nikita_ComplexNumberTest.CopyConstructor (0 ms)
+[ RUN      ] Shelepin_Nikita_ComplexNumberTest.AssignmentOperator
+[       OK ] Shelepin_Nikita_ComplexNumberTest.AssignmentOperator (0 ms)
+[ RUN      ] Shelepin_Nikita_ComplexNumberTest.GetReMethod
+[       OK ] Shelepin_Nikita_ComplexNumberTest.GetReMethod (0 ms)
+[ RUN      ] Shelepin_Nikita_ComplexNumberTest.GetImMethod
+[       OK ] Shelepin_Nikita_ComplexNumberTest.GetImMethod (0 ms)
+[ RUN      ] Shelepin_Nikita_ComplexNumberTest.SetReMethod
+[       OK ] Shelepin_Nikita_ComplexNumberTest.SetReMethod (0 ms)
+[ RUN      ] Shelepin_Nikita_ComplexNumberTest.SetImMethod
+[       OK ] Shelepin_Nikita_ComplexNumberTest.SetImMethod (0 ms)
+[ RUN      ] Shelepin_Nikita_ComplexNumberTest.PlusOperator
+[       OK ] Shelepin_Nikita_ComplexNumberTest.PlusOperator (0 ms)
+[ RUN      ] Shelepin_Nikita_ComplexNumberTest.MinusOperator
+[       OK ] Shelepin_Nikita_ComplexNumberTest.MinusOperator (0 ms)
+[ RUN      ] Shelepin_Nikita_ComplexNumberTest.MultiplyOperator
+[       OK ] Shelepin_Nikita_ComplexNumberTest.MultiplyOperator (0 ms)
+[ RUN      ] Shelepin_Nikita_ComplexNumberTest.DivisionOperatorThrow
+[       OK ] Shelepin_Nikita_ComplexNumberTest.DivisionOperatorThrow (0 ms)
+[ RUN      ] Shelepin_Nikita_ComplexNumberTest.DivisionOperator
+[       OK ] Shelepin_Nikita_ComplexNumberTest.DivisionOperator (0 ms)
+[ RUN      ] Shelepin_Nikita_ComplexNumberTest.EqualsOperator
+[       OK ] Shelepin_Nikita_ComplexNumberTest.EqualsOperator (0 ms)
+[ RUN      ] Shelepin_Nikita_ComplexNumberTest.NotEqualsOperator
+[       OK ] Shelepin_Nikita_ComplexNumberTest.NotEqualsOperator (0 ms)
+[----------] 15 tests from Shelepin_Nikita_ComplexNumberTest (0 ms total)
+
+[----------] 1 test from Default
+[ RUN      ] Default.Constructor
+[       OK ] Default.Constructor (0 ms)
+[----------] 1 test from Default (0 ms total)
+
+[----------] 5 tests from Troegubova_Alexandra_ComplexNumberTest
+[ RUN      ] Troegubova_Alexandra_ComplexNumberTest.Can_Create_Complex_Number
+[       OK ] Troegubova_Alexandra_ComplexNumberTest.Can_Create_Complex_Number (0 ms)
+[ RUN      ] Troegubova_Alexandra_ComplexNumberTest.Can_Add_Complex_Numbers
+[       OK ] Troegubova_Alexandra_ComplexNumberTest.Can_Add_Complex_Numbers (0 ms)
+[ RUN      ] Troegubova_Alexandra_ComplexNumberTest.Can_Find_The_Difference_Of_Complex_Numbers
+[       OK ] Troegubova_Alexandra_ComplexNumberTest.Can_Find_The_Difference_Of_Complex_Numbers (0 ms)
+[ RUN      ] Troegubova_Alexandra_ComplexNumberTest.Can_Multiply_Complex_Numbers
+[       OK ] Troegubova_Alexandra_ComplexNumberTest.Can_Multiply_Complex_Numbers (0 ms)
+[ RUN      ] Troegubova_Alexandra_ComplexNumberTest.Correct_Comparison_Of_Equal_Numbers
+[       OK ] Troegubova_Alexandra_ComplexNumberTest.Correct_Comparison_Of_Equal_Numbers (0 ms)
+[----------] 5 tests from Troegubova_Alexandra_ComplexNumberTest (0 ms total)
+
+[----------] 5 tests from Trukhanov_Artem_ComplexNumberTest
+[ RUN      ] Trukhanov_Artem_ComplexNumberTest.Can_Create_Zero
+[       OK ] Trukhanov_Artem_ComplexNumberTest.Can_Create_Zero (0 ms)
+[ RUN      ] Trukhanov_Artem_ComplexNumberTest.Can_Create_Complex_Number
+[       OK ] Trukhanov_Artem_ComplexNumberTest.Can_Create_Complex_Number (0 ms)
+[ RUN      ] Trukhanov_Artem_ComplexNumberTest.Can_Assign_Complex_Number
+[       OK ] Trukhanov_Artem_ComplexNumberTest.Can_Assign_Complex_Number (0 ms)
+[ RUN      ] Trukhanov_Artem_ComplexNumberTest.Can_Add_Complex_Numbers
+[       OK ] Trukhanov_Artem_ComplexNumberTest.Can_Add_Complex_Numbers (0 ms)
+[ RUN      ] Trukhanov_Artem_ComplexNumberTest.Can_Subtract_Complex_Numbers
+[       OK ] Trukhanov_Artem_ComplexNumberTest.Can_Subtract_Complex_Numbers (0 ms)
+[----------] 5 tests from Trukhanov_Artem_ComplexNumberTest (1 ms total)
+
+[----------] 11 tests from Vitulin_Ivan_ComplexNumberTest
+[ RUN      ] Vitulin_Ivan_ComplexNumberTest.Creating_Zero_Complex_Number
+[       OK ] Vitulin_Ivan_ComplexNumberTest.Creating_Zero_Complex_Number (0 ms)
+[ RUN      ] Vitulin_Ivan_ComplexNumberTest.Calculating_Sum_Of_Complex_Numbers
+[       OK ] Vitulin_Ivan_ComplexNumberTest.Calculating_Sum_Of_Complex_Numbers (0 ms)
+[ RUN      ] Vitulin_Ivan_ComplexNumberTest.Calculating_Subtr_Of_Complex_Numbers
+[       OK ] Vitulin_Ivan_ComplexNumberTest.Calculating_Subtr_Of_Complex_Numbers (0 ms)
+[ RUN      ] Vitulin_Ivan_ComplexNumberTest.Calculating_Multiply_Of_Complex_Numbers
+[       OK ] Vitulin_Ivan_ComplexNumberTest.Calculating_Multiply_Of_Complex_Numbers (0 ms)
+[ RUN      ] Vitulin_Ivan_ComplexNumberTest.Calculating_Division_Of_Complex_Numbers
+[       OK ] Vitulin_Ivan_ComplexNumberTest.Calculating_Division_Of_Complex_Numbers (0 ms)
+[ RUN      ] Vitulin_Ivan_ComplexNumberTest.Comparing_Equal_Complex_Numbers_1
+[       OK ] Vitulin_Ivan_ComplexNumberTest.Comparing_Equal_Complex_Numbers_1 (0 ms)
+[ RUN      ] Vitulin_Ivan_ComplexNumberTest.Comparing_Equal_Complex_Numbers_2
+[       OK ] Vitulin_Ivan_ComplexNumberTest.Comparing_Equal_Complex_Numbers_2 (0 ms)
+[ RUN      ] Vitulin_Ivan_ComplexNumberTest.Comparing_Non_Equal_Complex_Numbers_1
+[       OK ] Vitulin_Ivan_ComplexNumberTest.Comparing_Non_Equal_Complex_Numbers_1 (0 ms)
+[ RUN      ] Vitulin_Ivan_ComplexNumberTest.Comparing_Non_Equal_Complex_Numbers_2
+[       OK ] Vitulin_Ivan_ComplexNumberTest.Comparing_Non_Equal_Complex_Numbers_2 (0 ms)
+[ RUN      ] Vitulin_Ivan_ComplexNumberTest.Right_Reaction_Of_Division_On_Zero
+[       OK ] Vitulin_Ivan_ComplexNumberTest.Right_Reaction_Of_Division_On_Zero (0 ms)
+[ RUN      ] Vitulin_Ivan_ComplexNumberTest.Copying_Complex_Number
+[       OK ] Vitulin_Ivan_ComplexNumberTest.Copying_Complex_Number (0 ms)
+[----------] 11 tests from Vitulin_Ivan_ComplexNumberTest (0 ms total)
+
+[----------] 8 tests from Yashin_Kirill_ComplexNumberTest
+[ RUN      ] Yashin_Kirill_ComplexNumberTest.Can_Create_Zero
+[       OK ] Yashin_Kirill_ComplexNumberTest.Can_Create_Zero (0 ms)
+[ RUN      ] Yashin_Kirill_ComplexNumberTest.Can_Add_Positive
+[       OK ] Yashin_Kirill_ComplexNumberTest.Can_Add_Positive (0 ms)
+[ RUN      ] Yashin_Kirill_ComplexNumberTest.Can_Add_Negative
+[       OK ] Yashin_Kirill_ComplexNumberTest.Can_Add_Negative (0 ms)
+[ RUN      ] Yashin_Kirill_ComplexNumberTest.Can_Sub
+[       OK ] Yashin_Kirill_ComplexNumberTest.Can_Sub (0 ms)
+[ RUN      ] Yashin_Kirill_ComplexNumberTest.Can_Mul
+[       OK ] Yashin_Kirill_ComplexNumberTest.Can_Mul (0 ms)
+[ RUN      ] Yashin_Kirill_ComplexNumberTest.Can_Div
+[       OK ] Yashin_Kirill_ComplexNumberTest.Can_Div (0 ms)
+[ RUN      ] Yashin_Kirill_ComplexNumberTest.Can_Mul_On_Negative
+[       OK ] Yashin_Kirill_ComplexNumberTest.Can_Mul_On_Negative (0 ms)
+[ RUN      ] Yashin_Kirill_ComplexNumberTest.Can_Div_On_Negative
+[       OK ] Yashin_Kirill_ComplexNumberTest.Can_Div_On_Negative (0 ms)
+[----------] 8 tests from Yashin_Kirill_ComplexNumberTest (0 ms total)
+
+[----------] 27 tests from ComplexNumberTesting
+[ RUN      ] ComplexNumberTesting.can_create_complex_number_with_default_constructor
+[       OK ] ComplexNumberTesting.can_create_complex_number_with_default_constructor (0 ms)
+[ RUN      ] ComplexNumberTesting.can_create_complex_number_with_parameters
+[       OK ] ComplexNumberTesting.can_create_complex_number_with_parameters (0 ms)
+[ RUN      ] ComplexNumberTesting.can_get_realPart_complex_number
+[       OK ] ComplexNumberTesting.can_get_realPart_complex_number (0 ms)
+[ RUN      ] ComplexNumberTesting.can_get_imaginaryPart_complex_number
+[       OK ] ComplexNumberTesting.can_get_imaginaryPart_complex_number (0 ms)
+[ RUN      ] ComplexNumberTesting.get_realPart_is_correct
+[       OK ] ComplexNumberTesting.get_realPart_is_correct (0 ms)
+[ RUN      ] ComplexNumberTesting.get_imaginaryPart_is_correct
+[       OK ] ComplexNumberTesting.get_imaginaryPart_is_correct (1 ms)
+[ RUN      ] ComplexNumberTesting.can_set_realPart_complex_number
+[       OK ] ComplexNumberTesting.can_set_realPart_complex_number (0 ms)
+[ RUN      ] ComplexNumberTesting.can_set_imaginaryPart_complex_number
+[       OK ] ComplexNumberTesting.can_set_imaginaryPart_complex_number (0 ms)
+[ RUN      ] ComplexNumberTesting.set_realPart_is_correct
+[       OK ] ComplexNumberTesting.set_realPart_is_correct (0 ms)
+[ RUN      ] ComplexNumberTesting.set_imaginaryPart_is_correct
+[       OK ] ComplexNumberTesting.set_imaginaryPart_is_correct (0 ms)
+[ RUN      ] ComplexNumberTesting.can_assign_two_complex_number
+[       OK ] ComplexNumberTesting.can_assign_two_complex_number (0 ms)
+[ RUN      ] ComplexNumberTesting.assign_two_complex_number_is_correct
+[       OK ] ComplexNumberTesting.assign_two_complex_number_is_correct (0 ms)
+[ RUN      ] ComplexNumberTesting.can_assign_three_complex_number
+[       OK ] ComplexNumberTesting.can_assign_three_complex_number (0 ms)
+[ RUN      ] ComplexNumberTesting.assign_three_complex_number_is_correct
+[       OK ] ComplexNumberTesting.assign_three_complex_number_is_correct (0 ms)
+[ RUN      ] ComplexNumberTesting.can_addit_two_complex_number
+[       OK ] ComplexNumberTesting.can_addit_two_complex_number (0 ms)
+[ RUN      ] ComplexNumberTesting.addition_two_complex_number_is_correct
+[       OK ] ComplexNumberTesting.addition_two_complex_number_is_correct (0 ms)
+[ RUN      ] ComplexNumberTesting.can_subtract_two_complex_number
+[       OK ] ComplexNumberTesting.can_subtract_two_complex_number (0 ms)
+[ RUN      ] ComplexNumberTesting.subtraction_two_complex_number_is_correct
+[       OK ] ComplexNumberTesting.subtraction_two_complex_number_is_correct (0 ms)
+[ RUN      ] ComplexNumberTesting.can_multiply_two_complex_number
+[       OK ] ComplexNumberTesting.can_multiply_two_complex_number (0 ms)
+[ RUN      ] ComplexNumberTesting.multiplication_two_complex_number_is_correct
+[       OK ] ComplexNumberTesting.multiplication_two_complex_number_is_correct (0 ms)
+[ RUN      ] ComplexNumberTesting.can_divide_by_unzero_complex_number
+[       OK ] ComplexNumberTesting.can_divide_by_unzero_complex_number (0 ms)
+[ RUN      ] ComplexNumberTesting.can_not_divide_by_zero_complex_number
+[       OK ] ComplexNumberTesting.can_not_divide_by_zero_complex_number (0 ms)
+[ RUN      ] ComplexNumberTesting.division_two_complex_number_is_correct
+[       OK ] ComplexNumberTesting.division_two_complex_number_is_correct (0 ms)
+[ RUN      ] ComplexNumberTesting.can_check_for_equality_two_complex_number
+[       OK ] ComplexNumberTesting.can_check_for_equality_two_complex_number (0 ms)
+[ RUN      ] ComplexNumberTesting.check_for_equality_two_complex_number_is_correct
+[       OK ] ComplexNumberTesting.check_for_equality_two_complex_number_is_correct (0 ms)
+[ RUN      ] ComplexNumberTesting.can_check_for_inequality_two_complex_number
+[       OK ] ComplexNumberTesting.can_check_for_inequality_two_complex_number (0 ms)
+[ RUN      ] ComplexNumberTesting.check_for_inequality_two_complex_number_is_correct
+[       OK ] ComplexNumberTesting.check_for_inequality_two_complex_number_is_correct (0 ms)
+[----------] 27 tests from ComplexNumberTesting (6 ms total)
+
+[----------] 4 tests from Parametrized
+[ RUN      ] Parametrized.Constructor/0, where GetParam() = (1, 3)
+[       OK ] Parametrized.Constructor/0 (0 ms)
+[ RUN      ] Parametrized.Constructor/1, where GetParam() = (1, 4)
+[       OK ] Parametrized.Constructor/1 (0 ms)
+[ RUN      ] Parametrized.Constructor/2, where GetParam() = (2, 3)
+[       OK ] Parametrized.Constructor/2 (0 ms)
+[ RUN      ] Parametrized.Constructor/3, where GetParam() = (2, 4)
+[       OK ] Parametrized.Constructor/3 (0 ms)
+[----------] 4 tests from Parametrized (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 259 tests from 36 test cases ran. (51 ms total)
+[  PASSED  ] 259 tests.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"complex-number_gtest" end time: Mar 30 17:14 RTZ 2 (ceia)
+"complex-number_gtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 30 17:14 RTZ 2 (ceia)
+
+complex-number =   0.20 sec*proc
+

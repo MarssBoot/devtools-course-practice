@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\application\complex-number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\include\complex_calculator.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\include\complex_number.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\src\complex_calculator.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\src\complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_DANSHIN_GLEB_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_Diana_Lukashuk_comlex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_GROSHEV_NIKOLAY_complex_numbers.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_Krivosheev_miron.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_Mironova_Ekaterina_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_Polina_Petrova_complex_numder.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_Shatalin_Dmitrii_complex_numder.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_bakina_kseniia_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_brazhnik_dmitry_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_chornyi_yura_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_dydykin_p_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_ershov_alexey_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_gordeev_v_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_gordey_maria_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_kazhaeva_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_kim_nikita_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_kirill_lakhov_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_kitaev_pavel_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_kruglov_aleksei_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_kuklin_andrey_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_main.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_maksim_orlov_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_myasnikova_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_pichugin_ilya_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_pinezhanin_evgeny_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_samoiluk_a_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_shelepin_nikita_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_shurygina_a_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_simple.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_troegubova_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_trukhanov_artem_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_vitulin_ivan_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_yashin_kirill_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\modules\complex-number\test\test_zarubin_mikhail_complex_number.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\dashboard\build\CMakeFiles\ff04c7e9d092ea352c79736b573bfa7d\cpplint.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\run_cpplint.cmake" />
+    <None Include="C:\Users\white\source\repos\Dev_tools\devtools-course-practice\dashboard\build\CMakeFiles\cpplint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BA220144-1D0A-3B3B-A39D-E83B61549E1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B8EB6AF7-7876-3691-BD3C-E4EC5BB23147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7E7AFB9E-6CEE-31CB-B4C1-6DB0C30F9A73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
