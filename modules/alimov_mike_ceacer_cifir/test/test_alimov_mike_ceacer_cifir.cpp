@@ -2,6 +2,7 @@
 
 #include <gtest/gtest.h>
 #include "include/alimov_mike_ceacer_cifir.h"
+#include <string>  // NOLINT
 
 TEST(ALIMOV_ALIMOV_MIKHAIL, start) {
   CaesarCipher z;
@@ -88,5 +89,11 @@ TEST(ALIMOV_ALIMOV_MIKHAIL, razshifrovca_izmenili_razmer_shaga_2) {
 TEST(ALIMOV_ALIMOV_MIKHAIL, razshifrovca_c_probela) {
   CaesarCipher z;
   string a = "KHOOR ZRUOG";
+  EXPECT_EQ(z.decrypt(a, 3), "HELLO WORLD");
+}
+
+TEST(ALIMOV_ALIMOV_MIKHAIL, razshifrovca_c_mall_bycva) {
+  CaesarCipher z;
+  string a = "KhOOr zRUOg";
   EXPECT_EQ(z.decrypt(a, 3), "HELLO WORLD");
 }
