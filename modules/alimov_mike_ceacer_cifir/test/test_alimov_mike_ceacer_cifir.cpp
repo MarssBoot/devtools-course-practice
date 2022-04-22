@@ -48,6 +48,18 @@ TEST(ALIMOV_ALIMOV_MIKHAIL, razshifrovca_FALL) {
   ASSERT_ANY_THROW((z.decrypt(a, 3)));
 }
 
+TEST(ALIMOV_ALIMOV_MIKHAIL, All_Bycvi) {
+  CaesarCipher z;
+  string a = "QWERTYUIOASDFGHJKLZXCVBNM";
+  EXPECT_EQ(z.encrypt(a, 3), "TZHUWBXLRDVGIJKMNOCAFYEQP");
+}
+
+TEST(ALIMOV_ALIMOV_MIKHAIL, All_Bycvi_2) {
+  CaesarCipher z;
+  string a = "TZHUWBXLRDVGIJKMNOCAFYEQP";
+  EXPECT_EQ(z.decrypt(a, 3), "QWERTYUIOASDFGHJKLZXCVBNM");
+}
+
 TEST(ALIMOV_ALIMOV_MIKHAIL, normal) {
   CaesarCipher z;
   string a = "TEST";
