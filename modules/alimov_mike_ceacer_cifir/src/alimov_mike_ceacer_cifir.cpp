@@ -1,5 +1,6 @@
 // Copyright 2022 Alimov Mikhail
 #include "include/alimov_mike_ceacer_cifir.h"
+#include <string>
 CaesarCipher::CaesarCipher() {
   vvod = "";
   offset = 0;
