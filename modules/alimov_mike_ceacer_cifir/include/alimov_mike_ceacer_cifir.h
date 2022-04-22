@@ -4,18 +4,20 @@
 
 #include <string>
 #include <vector>
+using std::string;
+using std::vector;
 
 class CaesarCipher {
  public:
-  std::string vvod;
+  string vvod;
   int offset;
   CaesarCipher();
-  CaesarCipher(std::string vvod, int offset);
-  std::string encrypt(std::string vvod, int offset);
-  std::string decrypt(std::string vvod, int offset);
+  CaesarCipher(string vvod, int offset);
+  string encrypt(string vvod, int offset);
+  string decrypt(string vvod, int offset);
 
  private:
-  const std::vector<std::string> alphabet = {
+  const vector<string> alphabet = {
       "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
       "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
 };

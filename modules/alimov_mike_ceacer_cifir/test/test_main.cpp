@@ -1,4 +1,4 @@
-// Copyright 2022 Chornyi Yura
+// Copyright 2022 Alimov Mikhail
 
 #include <gtest/gtest.h>
 
