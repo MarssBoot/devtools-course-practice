@@ -14,6 +14,16 @@ TEST(ALIMOV_ALIMOV_MIKHAIL, start_2) {
   EXPECT_EQ(z.offset, 0);
 }
 
+TEST(ALIMOV_ALIMOV_MIKHAIL, init) {
+  CaesarCipher z("TEST", 3);
+  EXPECT_EQ(z.vvod, "TEST");
+}
+
+TEST(ALIMOV_ALIMOV_MIKHAIL, init_2) {
+  CaesarCipher z("TEST", 3);
+  EXPECT_EQ(z.offset, 3);
+}
+
 TEST(ALIMOV_ALIMOV_MIKHAIL, FALL) {
   CaesarCipher z;
   string a = "";
