@@ -90,11 +90,3 @@ TEST(ALIMOV_ALIMOV_MIKHAIL, razshifrovca_c_probela) {
   string a = "KHOOR ZRUOG";
   EXPECT_EQ(z.decrypt(a, 3), "HELLO WORLD");
 }
-
-TEST(ALIMOV_ALIMOV_MIKHAIL, razshifrovca_c_mall_bycva) {
-  CaesarCipher z;
-  string a = "KhOOr zRUOg";
-  EXPECT_EQ(z.decrypt(a, 3), "HELLO WORLD");
-}
-
-
