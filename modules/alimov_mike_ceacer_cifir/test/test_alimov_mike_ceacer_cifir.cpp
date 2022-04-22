@@ -2,7 +2,6 @@
 
 #include <gtest/gtest.h>
 #include "include/alimov_mike_ceacer_cifir.h"
-#include <string>
 
 TEST(ALIMOV_ALIMOV_MIKHAIL, start) {
   CaesarCipher z;
