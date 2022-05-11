@@ -1,7 +1,9 @@
 // Copyright 2022 Alimov Mikhail
 
+#include <string>  // NOLIT
 #include "include/kazhaeva_complex.h"
 #include "include/alimov_calculator.h"
+
 
 ComplexCalculator::ComplexCalculator() : message_("") {}
 
