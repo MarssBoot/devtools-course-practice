@@ -3,7 +3,7 @@
 #ifndef MODULES_KAZHAEVA_COMPLEX_INCLUDE_ALIMOV_CALCULATOR_H_
 #define MODULES_KAZHAEVA_COMPLEX_INCLUDE_ALIMOV_CALCULATOR_H_
 
-#include <string>
+#include <string>  // NOLIT
 #include <sstream>  // NOLIT
 
 
