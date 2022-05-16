@@ -17,7 +17,7 @@ void ComplexCalculator::help(const char* appname, const char* message) {
           "<z2_real> <z2_imaginary> <operation>\n\n" +
 
           "Where all arguments are double-precision numbers, " +
-          "and <operation> is one of '+', '-', '*', '/'.\n";
+          "and <operation> is one of '+', '-', '*', '/'\n";
 }
 
 bool ComplexCalculator::validateNumberOfArguments(int argc, const char** argv) {
