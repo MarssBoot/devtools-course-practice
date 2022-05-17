@@ -3,11 +3,6 @@
 #include <sstream>  // NOLIT
 #include <string>   // NOLIT
 
-#include <stdio.h>  // NOLIT
-#include <stdlib.h>  // NOLIT
-#include <stdint.h>  // NOLIT
-#include <string.h>  // NOLIT
-
 #include "include/alimov_calculator.h"  // NOLIT
 #include "include/kazhaeva_complex.h"  // NOLIT
 
