@@ -3,11 +3,12 @@
 #ifndef MODULES_KAZHAEVA_COMPLEX_INCLUDE_ALIMOV_CALCULATOR_H_
 #define MODULES_KAZHAEVA_COMPLEX_INCLUDE_ALIMOV_CALCULATOR_H_
 
-#include <string>  // NOLIT
 #include <stdio.h>  // NOLIT
 #include <stdlib.h>  // NOLIT
 #include <stdint.h>  // NOLIT
 #include <string.h>  // NOLIT
+#include <string>  // NOLIT
+
 
 
 class ComplexCalculator {
