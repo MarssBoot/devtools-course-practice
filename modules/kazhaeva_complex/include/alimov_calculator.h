@@ -4,8 +4,6 @@
 #define MODULES_KAZHAEVA_COMPLEX_INCLUDE_ALIMOV_CALCULATOR_H_
 
 #include <string>  // NOLIT
-#include <sstream>  // NOLIT
-
 
 class ComplexCalculator {
  public:
